@@ -1,0 +1,220 @@
+<html>
+<title>TUGAS PEMROGRAMAN WEB-Elvin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"">
+
+<body background="img1/2.png">
+  <div class=" w3-container">
+<img src="img1/benner.png" width="100%">
+</div>
+
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button w3-animate-left" onclick="pilihan('history')">Home</button>
+
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-animate-left">Accessories</button>
+    <div class="w3-dropdown-content w3-animate-right w3-green w3-bar-block w3-card">
+      <button class="w3-bar-item w3-button" onclick="pilihan('HeadLamp')">HeadLamp</button>
+      <button class="w3-bar-item w3-button" onclick="pilihan('Exhaust')">Exhaust</button>
+      <button class="w3-bar-item w3-button" onclick="pilihan('Velg')">Velg</button>
+      <button class="w3-bar-item w3-button" onclick="pilihan('Suspension')">Suspension</button>
+      </div>
+  </div>
+
+  <button class="w3-bar-item w3-button w3-animate-left" onclick="pilihan('Vidio')">Vidio</button>
+  <button class="w3-bar-item w3-button w3-animate-left" onclick="pilihan('profil')">Profile</button>
+  </div>
+
+  <div id="profil" class="w3-container El w3-animate-top w3- w3-card-4 kota"style="display:none">
+    <div class="w3-panel w3-blue w3-round-xlarge w3-animate-zoom">
+      <center>
+        <h2>BIODATA</h2>
+      </center>
+    </div>
+
+    <div class="w3-panel w3-white w3-round-xlarge">
+      <img src="img1/IMG_5874.jpg" width=20% >
+      <ul type=disc class="w3-display-middle">
+        <font size=4>
+          <li>Nama : Elvin Juniansha</li>
+          <li>Nim : 10123164 </li>
+          <li>Kelas : IF-4</li>
+          <li>Angkatan : 2023</li>
+          <li>Universitas : UNIKOM (Universitas Komputer Indonesia)</li>
+          <li>Tempat Tanggal Lahir : Bandung, 16 Juni 2003</li>
+          <li>Hobby : Memancing</li>
+          <li>Alamat : PERUM. Gading Tutuka 1 Blok D2 No.17 </li>
+          <li>Email : elvinjuan12@gmail.com </li>
+          <li>Instagram : @_elvinjuann </li>
+        </font>
+      </ul>
+      <p>Assalamualaikum Nama saya Elvin Juniansha, Saya adalah Mahasiswa Universitas komputer Indonesia. 
+      fakultas Teknik dan ilmu komputer, program study teknik informatika. Selama kuliah, saya aktif berorganisasi 
+      dan aktif dalam mengikuti kegiatan kampus.
+        <i><ins>Bandung 16/06/2023</ins><i>
+      </p>
+    </div>
+  </div>
+
+  <div id="history" class="w3-container El w3-animate-top w3-black w3-card-4" style="display:none">
+    <div class="w3-panel w3-blue w3-round-xlarge w3-animate-right" >
+    <center>
+    <h2>SEJARAH</h2>
+    </center>
+    </div>
+    <center>
+    <img src="img1/mesin.png" width=40% >
+    </center>
+
+    <blockquote>
+      <h3 style=color:silver>1893 Sampai 2014.</h3>
+      <p>
+        Mesin Diesel pertama kali ditemukan oleh seorang insinyur berkebangsaan Jerman Bernama Rudolf Christian Karl 
+        Diesel pada tahun 1892. Namun ia menerima patennya pada tanggal 23 Februari 1893. Misi awal yang diinginkan Rudolf Diesel adalah 
+        membuat sebuah mesin yang dapat digunakan dengan berbagai macam bahan bakar, termasuk debu batu bara. Rudolf Diesel mempertunjukan 
+        kehebatan ciptaannya pada Exposition Universelle (pameran dunia) dengan menggunakan bahan bakar minyak kacang (biodiesel) di tahun 1900.
+      </p>
+    </blockquote>   
+  </div>
+</div>
+
+  <div id="HeadLamp" class="w3-container El w3-animate-top w3-black w3-card-4 kota" style="display:none">
+    <div class="w3-panel w3-light-blue w3-round-xlarge w3-animate-zoom">
+      <center>
+      <h2>HeadLamp</h2>
+      </center>
+      </div>
+      <center>
+        <img src="img1/lampu.webp" width=30%>
+      </center>
+      
+      <blockquote>
+      <h3 style=color:red> Harga Rp. 10.000.000</h3>
+      <center>
+        <p>
+          Headlamp ORI Inova Reborn
+          <br>Proji 3in Pro7 BARU
+          <br>slim Frame 3D Baru
+        </br>
+        </p>
+      </center>
+      </blockquote>
+    </div>
+
+    <div id="Exhaust" class="w3-container El w3-animate-top w3-black w3-card-4 kota" style="display:none">
+      <div class="w3-panel w3-light-blue w3-round-xlarge w3-animate-zoom">
+        <center>
+        <h2>Exhaust</h2>
+        </center>
+      </div>
+        <center>
+        <img src="img1/knalpot.jpg" width=30%>
+        </center>
+    
+          <blockquote>
+          <h3 style=color:red>Harga Rp. 2.300.000</h3>
+          <center>
+            <p>
+            Full System Alpino Untuk Innova Reborn
+            <br>-Downpipe
+            <br>-Resonator
+            <br>-Tailpipe
+            </br>
+            </p>
+          </center>
+          </blockquote>
+        </div>
+
+    <div id="Velg" class="w3-container El w3-animate-top w3-black w3-card-4 kota" style="display:none">
+      <div class="w3-panel w3-light-blue w3-round-xlarge w3-animate-zoom">
+        <center>
+        <h2>Velg</h2>
+        </center>
+        </div>
+        <center>
+        <img src="img1/velg.jpg" width=30%>
+        </center>
+        
+        <blockquote>
+        <h3 style=color:red>Harga Rp. 10.000.000</h3>
+        <center>
+        <p>
+        <br>Nama	: Velg SAMLONG E1 SKK 
+        <br>Merk	:	JF Luxury 
+        <br>Ring  : 18×9.5
+        <br>PCD : 5×114
+        <br>ET    : 25
+        <br>PNP : Innova Barong, Reborn, Venturer, HRV, Outlander, CRV, Civic dll
+        <br>WARNA : Black Machine Lip
+        </br>
+        </p>
+        </center>
+        </blockquote>
+      </div>
+
+        <div id="Suspension" class="w3-container El w3-animate-top w3-black w3-card-4 kota" style="display:none">
+          <div class="w3-panel w3-light-blue w3-round-xlarge w3-animate-zoom">
+            <center>
+            <h2>Suspension</h2>
+            </center>
+            </div>
+            <center>
+            <img src="img1/suspensi.jpg" width=30%>
+            </center>
+            
+            <blockquote>
+            <h3 style=color:red>Harga Rp. 6.500.000</h3>
+            <center>
+            <p>
+            <br>1 SET | YSS DTG Shockbreaker INNOVA 2KD 2GD REBORN 2005-2022+ PnP
+            <br>Original Made In Thailand
+            <br>High performance shockbreaker
+            <br>Keras empuk bisa diatur hingga 7 tingkat
+            <br>Keras empuk bisa diatur hingga 7 tingkat
+            <br>Meningkatkan kestabilan dan handling
+            <br>Solusi limbung pada mobil
+            <br>Tabung dan tiang shockbreaker lebih besar daripada orinya.
+            <br>Mengutamakan kestabilan dan performa mobil..
+            </br>
+            </p>
+            </center>
+            </blockquote>
+          </div>
+
+          <div id="Vidio" class="w3-container El w3-animate-top w3-black w3-card-4 kota" style="display:none">
+          <div class="w3-panel w3-light-blue w3-round-xlarge w3-animate-zoom">
+          <center>
+          <h2>Video GRoboh</h2>
+          </center>
+          </div>
+
+          <blockquote>
+            <video width="290" height="240" controls>
+              <source src="img1/vid1.mp4" type="video/mp4">
+              </video>
+              <video width="290" height="240" controls>
+              <source src="img1/vid2 (1).mp4" type="video/mp4">
+              </video>
+              <video width="290" height="240" controls>
+              <source src="img1/vid3.mp4" type="video/mp4">
+              </video>
+              <video width="290" height="240" controls>
+              <source src="img1/vid4.mp4" type="video/mp4">
+              </video>
+          </blockquote>
+          </div>
+            </div>
+
+        <script>
+          function pilihan(namakota) {
+            var i;
+            var x = document.getElementsByClassName("kota");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            document.getElementById(namakota).style.display = "block";
+          }
+        </script>
+        </body>
+
+</html>
